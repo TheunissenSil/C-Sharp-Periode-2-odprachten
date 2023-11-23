@@ -1,6 +1,8 @@
 ﻿using StrategyPattern.Interfaces.FlyBehavior;
 using StrategyPattern.Interfaces.QuackBehavior;
+using StrategyPattern.Interfaces.SwimBehavior;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,12 +16,14 @@ namespace StrategyPattern.Ducks
         {
             quackBehavior = new Squeak();
             flyBehavior = new FlyNoWay();
+            swimBehavior = new Floating();
         }
         public override void Display()
         {
             Console.WriteLine("I'm a Rubber Duck");
             quackBehavior.Quack();
             flyBehavior.Fly();
+            swimBehavior.Swim();
         }
     }
 }

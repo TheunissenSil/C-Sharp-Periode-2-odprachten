@@ -11,11 +11,13 @@ namespace StrategyPattern
             Duck redheadDuck = new RedheadDuck();
             Duck decoyDuck = new DecoyDuck();
             Duck rubberDuck = new RubberDuck();
+            Duck robotDuck = new RobotDuck();
             
             mallardDuck.Display();
             redheadDuck.Display();
             decoyDuck.Display();
             rubberDuck.Display();
+            robotDuck.Display();
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using StrategyPattern.Interfaces.FlyBehavior;
 using StrategyPattern.Interfaces.QuackBehavior;
+using StrategyPattern.Interfaces.SwimBehavior;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,12 +15,14 @@ namespace StrategyPattern.Ducks
         {
             quackBehavior = new RegularQuack();
             flyBehavior = new FlyWithWings();
+            swimBehavior = new Floating();
         }
         public override void Display()
         {
             Console.WriteLine("I'm a Redhead Duck");
             quackBehavior.Quack();
             flyBehavior.Fly();
+            swimBehavior.Swim();
         }
     }
 }

@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace StrategyPattern.Ducks
 {
-    internal class DecoyDuck : Duck
+    internal class RobotDuck : Duck
     {
-        public DecoyDuck()
+        public RobotDuck()
         {
             quackBehavior = new MuteQuack();
             flyBehavior = new FlyNoWay();
@@ -19,7 +19,7 @@ namespace StrategyPattern.Ducks
         }
         public override void Display()
         {
-            Console.WriteLine("I'm a Decoy Duck");
+            Console.WriteLine("I'm a Robot Duck");
             quackBehavior.Quack();
             flyBehavior.Fly();
             swimBehavior.Swim();
