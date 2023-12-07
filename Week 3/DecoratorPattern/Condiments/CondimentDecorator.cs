@@ -7,9 +7,23 @@ using System.Threading.Tasks;
 
 namespace DecoratorPattern.Condiments
 {
-    internal abstract class CondimentDecorator : Beverage
+    internal abstract class CondimentDecorator : IBeverage
     {
-        public abstract override string GetDescription();
+        protected IBeverage BaseBeverage { get; set; }
 
+        protected CondimentDecorator(IBeverage baseBeverage)
+        {
+            BaseBeverage = baseBeverage;
+        }
+
+        public abstract string GetDescription();
+
+        public abstract double Cost();
+
+        public Size Size
+        {
+            get { return BaseBeverage.Size; }
+            set { BaseBeverage.Size = value; }
+        }
     }
 }

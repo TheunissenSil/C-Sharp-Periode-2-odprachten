@@ -12,7 +12,7 @@ namespace DecoratorPattern.Beverages
         GRANDE,
         VENDI
     }
-    internal abstract class Beverage
+    internal abstract class Beverage : IBeverage
     {
         public Size Size { get { return size; } set { size = value; } }
         private Size size;
@@ -26,6 +26,6 @@ namespace DecoratorPattern.Beverages
             return description;
         }
 
-        public abstract double cost();
+        public abstract double Cost();
     }
 }

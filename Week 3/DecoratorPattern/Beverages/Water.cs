@@ -22,11 +22,11 @@ namespace DecoratorPattern.Beverages
             }
             return description;
         }
-        public override double cost()
+        public override double Cost()
         {
             if (baseBeverage != null)
             {
-                return 0.50 + baseBeverage.cost();
+                return 0.50 + baseBeverage.Cost();
             }
             return 0.50;
         }

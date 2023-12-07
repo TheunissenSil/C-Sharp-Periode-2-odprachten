@@ -7,22 +7,27 @@ namespace DecoratorPattern
     {
         static void Main(string[] args)
         {
-            Beverage espresso = new Espresso();
+            // Maak een Espresso aan
+            IBeverage espresso = new Espresso();
             PrintBeverage(espresso);
 
-            Beverage lungo = new Espresso();
-            lungo = new Water(lungo);
+            // Maak een Lungo aan
+            IBeverage lungo = new Espresso();
+            lungo.Size = Size.GRANDE;
+            lungo = new Water((Beverage)lungo);
             PrintBeverage(lungo);
 
-            Beverage americano = new Espresso();
-            americano = new Water(americano);
-            americano = new Water(americano);
+            // Maak een Americano aan
+            IBeverage americano = new Espresso();
+            americano.Size = Size.VENDI;
+            americano = new Water((Beverage)americano); 
+            americano = new Water((Beverage)americano); 
             PrintBeverage(americano);
         }
 
-        static void PrintBeverage(Beverage beverage)
+        static void PrintBeverage(IBeverage beverage)
         {
-            Console.WriteLine(beverage.GetDescription() + " $" +  beverage.cost().ToString("#.##"));
+            Console.WriteLine(beverage.GetDescription() + " $" + beverage.Cost().ToString("#.##"));
         }
     }
 }

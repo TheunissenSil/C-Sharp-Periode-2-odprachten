@@ -9,19 +9,18 @@ namespace DecoratorPattern.Condiments
 {
     internal class Mocha : CondimentDecorator
     {
-        public Mocha(Beverage beverage)
+        public Mocha(IBeverage beverage) : base(beverage) 
         {
-            this.baseBeverage = beverage;
         }
 
-        public override double cost()
+        public override double Cost()
         {
-            return 0.20 + baseBeverage.cost();
+            return 0.20 + BaseBeverage.Cost();
         }
 
         public override string GetDescription()
         {
-            return baseBeverage.GetDescription() + ", Mocha";
+            return BaseBeverage.GetDescription() + ", Mocha";
         }
     }
 }

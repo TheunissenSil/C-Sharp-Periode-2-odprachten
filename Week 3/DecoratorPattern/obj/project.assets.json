@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\rnieuwkoop\\.nuget\\packages\\": {}
+    "C:\\Users\\theun\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rnieuwkoop\\OneDrive - ROC Nijmegen\\Software Development\\API 3 - Design Patterns\\Source code\\DesignPatterns\\DecoratorPattern\\DecoratorPattern.csproj",
+      "projectUniqueName": "C:\\Users\\theun\\OneDrive - ROC Nijmegen\\Documenten\\ROC\\Leerjaar 3\\C#\\C-Sharp-Periode-2-odprachten\\Week 3\\DecoratorPattern\\DecoratorPattern.csproj",
       "projectName": "DecoratorPattern",
-      "projectPath": "C:\\Users\\rnieuwkoop\\OneDrive - ROC Nijmegen\\Software Development\\API 3 - Design Patterns\\Source code\\DesignPatterns\\DecoratorPattern\\DecoratorPattern.csproj",
-      "packagesPath": "C:\\Users\\rnieuwkoop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rnieuwkoop\\OneDrive - ROC Nijmegen\\Software Development\\API 3 - Design Patterns\\Source code\\DesignPatterns\\DecoratorPattern\\obj\\",
+      "projectPath": "C:\\Users\\theun\\OneDrive - ROC Nijmegen\\Documenten\\ROC\\Leerjaar 3\\C#\\C-Sharp-Periode-2-odprachten\\Week 3\\DecoratorPattern\\DecoratorPattern.csproj",
+      "packagesPath": "C:\\Users\\theun\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\theun\\OneDrive - ROC Nijmegen\\Documenten\\ROC\\Leerjaar 3\\C#\\C-Sharp-Periode-2-odprachten\\Week 3\\DecoratorPattern\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rnieuwkoop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\theun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
