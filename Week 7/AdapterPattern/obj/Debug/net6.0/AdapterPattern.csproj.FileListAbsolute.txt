@@ -1,0 +1,30 @@
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\ROC Nijmegen\Ontwikkeling\C#\DesignPatterns\AdapterPattern\obj\Debug\net6.0\AdapterPattern.csproj.AssemblyReference.cache
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\ROC Nijmegen\Ontwikkeling\C#\DesignPatterns\AdapterPattern\obj\Debug\net6.0\AdapterPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\ROC Nijmegen\Ontwikkeling\C#\DesignPatterns\AdapterPattern\obj\Debug\net6.0\AdapterPattern.AssemblyInfoInputs.cache
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\ROC Nijmegen\Ontwikkeling\C#\DesignPatterns\AdapterPattern\obj\Debug\net6.0\AdapterPattern.AssemblyInfo.cs
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\ROC Nijmegen\Ontwikkeling\C#\DesignPatterns\AdapterPattern\obj\Debug\net6.0\AdapterPattern.csproj.CoreCompileInputs.cache
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\ROC Nijmegen\Ontwikkeling\C#\DesignPatterns\AdapterPattern\bin\Debug\net6.0\AdapterPattern.exe
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\ROC Nijmegen\Ontwikkeling\C#\DesignPatterns\AdapterPattern\bin\Debug\net6.0\AdapterPattern.deps.json
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\ROC Nijmegen\Ontwikkeling\C#\DesignPatterns\AdapterPattern\bin\Debug\net6.0\AdapterPattern.runtimeconfig.json
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\ROC Nijmegen\Ontwikkeling\C#\DesignPatterns\AdapterPattern\bin\Debug\net6.0\AdapterPattern.dll
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\ROC Nijmegen\Ontwikkeling\C#\DesignPatterns\AdapterPattern\bin\Debug\net6.0\AdapterPattern.pdb
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\ROC Nijmegen\Ontwikkeling\C#\DesignPatterns\AdapterPattern\obj\Debug\net6.0\AdapterPattern.dll
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\ROC Nijmegen\Ontwikkeling\C#\DesignPatterns\AdapterPattern\obj\Debug\net6.0\refint\AdapterPattern.dll
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\ROC Nijmegen\Ontwikkeling\C#\DesignPatterns\AdapterPattern\obj\Debug\net6.0\AdapterPattern.pdb
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\ROC Nijmegen\Ontwikkeling\C#\DesignPatterns\AdapterPattern\obj\Debug\net6.0\AdapterPattern.genruntimeconfig.cache
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\ROC Nijmegen\Ontwikkeling\C#\DesignPatterns\AdapterPattern\obj\Debug\net6.0\ref\AdapterPattern.dll
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\Software Development\API 3 - Design Patterns\Source code\DesignPatterns\AdapterPattern\bin\Debug\net6.0\AdapterPattern.exe
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\Software Development\API 3 - Design Patterns\Source code\DesignPatterns\AdapterPattern\bin\Debug\net6.0\AdapterPattern.deps.json
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\Software Development\API 3 - Design Patterns\Source code\DesignPatterns\AdapterPattern\bin\Debug\net6.0\AdapterPattern.runtimeconfig.json
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\Software Development\API 3 - Design Patterns\Source code\DesignPatterns\AdapterPattern\bin\Debug\net6.0\AdapterPattern.dll
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\Software Development\API 3 - Design Patterns\Source code\DesignPatterns\AdapterPattern\bin\Debug\net6.0\AdapterPattern.pdb
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\Software Development\API 3 - Design Patterns\Source code\DesignPatterns\AdapterPattern\obj\Debug\net6.0\AdapterPattern.csproj.AssemblyReference.cache
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\Software Development\API 3 - Design Patterns\Source code\DesignPatterns\AdapterPattern\obj\Debug\net6.0\AdapterPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\Software Development\API 3 - Design Patterns\Source code\DesignPatterns\AdapterPattern\obj\Debug\net6.0\AdapterPattern.AssemblyInfoInputs.cache
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\Software Development\API 3 - Design Patterns\Source code\DesignPatterns\AdapterPattern\obj\Debug\net6.0\AdapterPattern.AssemblyInfo.cs
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\Software Development\API 3 - Design Patterns\Source code\DesignPatterns\AdapterPattern\obj\Debug\net6.0\AdapterPattern.csproj.CoreCompileInputs.cache
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\Software Development\API 3 - Design Patterns\Source code\DesignPatterns\AdapterPattern\obj\Debug\net6.0\AdapterPattern.dll
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\Software Development\API 3 - Design Patterns\Source code\DesignPatterns\AdapterPattern\obj\Debug\net6.0\refint\AdapterPattern.dll
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\Software Development\API 3 - Design Patterns\Source code\DesignPatterns\AdapterPattern\obj\Debug\net6.0\AdapterPattern.pdb
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\Software Development\API 3 - Design Patterns\Source code\DesignPatterns\AdapterPattern\obj\Debug\net6.0\AdapterPattern.genruntimeconfig.cache
+C:\Users\rnieuwkoop\OneDrive - ROC Nijmegen\Software Development\API 3 - Design Patterns\Source code\DesignPatterns\AdapterPattern\obj\Debug\net6.0\ref\AdapterPattern.dll
