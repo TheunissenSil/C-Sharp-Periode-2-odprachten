@@ -10,28 +10,15 @@ namespace CommandPattern
         {
             RemoteControl remoteControl = new RemoteControl();
 
-            /* Define and instantiate the following Vendor classes
-             * Kitchen Light : Light
-             * Livingroom Light : Light
-             * Livingroom ceiling fan : CeilingFan
-             * Garage door: Garagedoor
-             * Stereo : Stereo
-             */
+            // Instantieer lichten, fans, etc.
+            Light livingRoomLight = new Light("Living Room");
+            LightOnCommand livingRoomLightOn = new LightOnCommand(livingRoomLight);
+            LightOffCommand livingRoomLightOff = new LightOffCommand(livingRoomLight);
 
-            // Define and instantiate an Off and On command for each Vendor class
-
-            /* Set the On and Off commands to the appropriate slot:
-             * 
-             * 1: Living Room light
-             * 2: Livingroom light
-             * 3: Livingroom ceiling fan
-             * 4: Garage door
-             * 5: Stereo
-             */
-
-            Console.WriteLine(remoteControl);
-
-            // Test the pressing of Buttons here. Don't forget to test the Undo button
+            // Test commando's
+            remoteControl.OnButtonWasPushed(0);   // Zet licht aan
+            remoteControl.OffButtonWasPushed(0);  // Zet licht uit
+            remoteControl.UndoButtonWasPushed();  // Undo laatste commando (zet licht weer aan)
         }
     }
 }
