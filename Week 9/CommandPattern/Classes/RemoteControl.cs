@@ -13,6 +13,7 @@ namespace CommandPattern.Classes
         Command[] onCommands = new Command[7];
         Command[] offCommands = new Command[7];
         Command undoCommand;
+        Stack<Command> commandHistory = new Stack<Command>();
         public RemoteControl()
         {
             Command noCommand = new NoCommand();
@@ -24,21 +25,27 @@ namespace CommandPattern.Classes
             undoCommand = noCommand;
         }
 
-        // This method must set the On and Off command to the slot provided
-        public void SetCommand(int slot, Command onCommand, Command offCommand)
+        public void UndoButtonWasPushed()
         {
+            if (commandHistory.Count > 0)
+            {
+                Command commandToUndo = commandHistory.Pop();
+                commandToUndo.Undo();
+            }
         }
 
-        // This method must call the OnCommand.Execute() method of the slot provided
         public void OnButtonWasPushed(int slot)
         {
+            onCommands[slot].Execute();
+            commandHistory.Push(onCommands[slot]);
         }
 
-        // This method must call the OffCommand.Execute() method of the slot provided
         public void OffButtonWasPushed(int slot)
         {
+            offCommands[slot].Execute();
+            commandHistory.Push(offCommands[slot]);
         }
-        // Overwritten ToString() to print out each slot and its corresponding command.
+
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
