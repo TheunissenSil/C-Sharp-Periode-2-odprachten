@@ -9,6 +9,9 @@ namespace CommandPattern.Classes
     internal class Light
     {
         private string location;
+
+        public bool IsOn { get; internal set; }
+
         public Light(string location) 
         {
             this.location = location;

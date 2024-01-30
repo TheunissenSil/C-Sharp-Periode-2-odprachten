@@ -10,17 +10,29 @@ namespace CommandPattern.Classes.Commands
     internal class LightOnCommand : Command
     {
         Light light;
+        bool prevStatus;
 
         public LightOnCommand(Light light)
         {
             this.light = light;
+            prevStatus = light.IsOn; 
         }
 
         public void Execute()
         {
+            prevStatus = light.IsOn;  
+            light.On();
         }
         public void Undo()
         {
+            if (prevStatus)
+            {
+                light.On();
+            }
+            else
+            {
+                light.Off();
+            }
         }
     }
 }
